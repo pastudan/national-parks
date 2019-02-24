@@ -1,33 +1,25 @@
-.App {
-  text-align: center;
+.App input {
+  padding: 10px;
+  border: 2px solid rgb(82, 82, 82);
+  border-radius: 4px;
+  margin: 20px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.App .parks {
+  margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .park {
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.App .park:hover {
+  background: rgb(206, 206, 206);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .marker {
+  background: #0078967a;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
 }
